@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #7a2e34 !important;
+}
+
+section {
+  padding: 150px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.row-margin {
+  margin-top: 16px !important;
+}
+
+p {
+  color: #646464;
+  font-family: "Lato", sans-serif;
+}
+/*---------start-------*/
+
+.thank-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.thankinner {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.thankinner figure {
+  color: #13194A;
+  font-size: 80px;
+}
+
+.thankinner h1 {
+  color: #C00304;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.thankinner figcaption p {
+  color: #13194a;
+  font-size: 18px;
+}
